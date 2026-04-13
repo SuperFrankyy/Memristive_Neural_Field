@@ -1,0 +1,1 @@
+python train_image_regression_3d.py --config configs/image_regression_3d.yaml 

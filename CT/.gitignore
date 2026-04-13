@@ -1,0 +1,12 @@
+logs/
+outputs/
+figures/
+enc_comp/
+figure3_results/
+img/
+outputs/
+rank_comp/
+response/
+# 忽略所有ipynb文件，除了HPO_search.ipynb
+*.ipynb
+!HPO_search.ipynb

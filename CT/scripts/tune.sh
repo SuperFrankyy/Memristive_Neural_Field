@@ -1,0 +1,1 @@
+python train_ct_recon_3d.py --config configs/ct_recon_3d.yaml --pretrain
