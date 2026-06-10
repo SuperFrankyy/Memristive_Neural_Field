@@ -51,6 +51,10 @@ After training, the network weights are quantized using Hardware-aware Quantizat
 bash scripts/test.sh
 ```
 
-## Hardare-aware Hyperparameter Optimization (HAPO)
+## Hardware-aware Hyperparameter Optimization (HAPO)
 
-Haardare-aware Hyperparameter optimization is implemented in the Jupyter notebook `HPO_search.ipynb`. 
+Hardware-aware Hyperparameter optimization is implemented in the Jupyter notebook `HPO_search.ipynb`. 
+
+## Acknowledgements
+
+This codebase is improved based on [NeRP](https://github.com/liyues/NeRP.git). We thank the original authors for their open-source contribution.
