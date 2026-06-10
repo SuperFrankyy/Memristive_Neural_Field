@@ -1,0 +1,16 @@
+**/.ipynb_checkpoints
+**/__pycache__
+*.png
+*.mp4
+*.npy
+*.npz
+*.dae
+data/*
+logs/*
+figures/*
+*.csv
+*.ipynb
+!HPO_nerf.ipynb
+nas_log/*
+hardware_data/*
+imgs/*

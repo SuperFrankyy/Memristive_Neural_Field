@@ -1,0 +1,30 @@
+expname = lego_w128*8_r32_pruning0.9_train
+basedir = ./logs/train
+datadir = ./data/nerf_synthetic/lego
+dataset_type = blender
+
+no_batching = True
+
+use_viewdirs = True
+white_bkgd = True
+lrate_decay = 500
+
+netwidth = 128
+netdepth = 8
+
+netwidth_fine = 128
+netdepth_fine = 8
+
+rank = 32
+rank_fine = 32
+
+pruningratio = 0.9
+
+N_samples = 64
+N_importance = 128
+N_rand = 1024
+
+precrop_iters = 500
+precrop_frac = 0.5
+
+half_res = True

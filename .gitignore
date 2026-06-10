@@ -1,0 +1,12 @@
+# Minimal demo sync exclusions
+D-NVS/
+
+# Python cache files
+**/__pycache__/
+*.py[cod]
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+
+# PDF files
+*.pdf
